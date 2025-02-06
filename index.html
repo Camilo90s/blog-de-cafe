@@ -1,0 +1,233 @@
+<!DOCTYPE html>
+<html lang="es">
+<head>
+    <meta charset="UTF-8">
+    <meta name="viewport" content="width=device-width, initial-scale=1.0">
+    <meta name="description" content="Página web de blog de café">
+
+    <!-- Prefetch -->
+     <link rel="prefetch" href="nosotros.html" as="document">
+
+    <!-- Preload -->
+    <title>BlogDeCafé</title>
+    <link rel="preload" href="css/normalize.css" as="styles">
+    <link rel="stylesheet" href="css/normalize.css">
+
+    <link rel="preconnect" href="https://fonts.googleapis.com">
+    <link rel="preconnect" href="https://fonts.gstatic.com" crossorigin>
+
+    <link rel="preload" href="https://fonts.googleapis.com/css2?family=Inter:ital,opsz,wght@0,14..32,100..900;1,14..32,100..900&family=Oswald:wght@200..700&display=swap" crossorigin="crossorigin" as="font"> 
+    <link href="https://fonts.googleapis.com/css2?family=Inter:ital,opsz,wght@0,14..32,100..900;1,14..32,100..900&family=Oswald:wght@200..700&display=swap" rel="stylesheet">
+    
+    <link rel="preload" href="https://fonts.googleapis.com/css2?family=Lato:ital,wght@0,100;0,300;0,400;0,700;0,900;1,100;1,300;1,400;1,700;1,900&display=swap" crossorigin="crossorigin" as="font">
+    <link href="https://fonts.googleapis.com/css2?family=Lato:ital,wght@0,100;0,300;0,400;0,700;0,900;1,100;1,300;1,400;1,700;1,900&display=swap" rel="stylesheet">
+
+    <link rel="preload" href="css/styles.css" as="styles">
+    <link rel="stylesheet" href="css/styles.css">
+
+</head>
+<body>
+    <header class="header">
+
+        <div class="contenedor">
+            <div class="barra">
+                <a class="logo" href="index.html">
+                    <h1 class="logo__nombre no-margin centrar-texto">Blog<span class="logo__bold">DeCafé</span></h1>
+                </a>
+                <nav class="navegacion">
+                    <a href="nosotros.html" class="navegacion__enlace">Nosotros</a>
+                    <a href="cursos.html" class="navegacion__enlace">Cursos</a>
+                    <a href="contacto.html" class="navegacion__enlace">Contacto</a>
+                </nav>
+            </div>
+        </div>
+
+        <div class="header__texto">
+            <h2 class="no-margin header__subtitulo"> Blog de café con consejos y cursos</h2>
+            <p class="no-margin header__parrafo">Aprende de los expertos con las mejores recetas y consejos</p>
+        </div>
+    </header>
+
+    <div class="contenedor contenido-principal">
+        <main class="blog">
+            <h3>Nuestro blog</h3>
+            <article class="entrada">
+                <div class="entrada__imagen">
+                    <picture>
+                        <source loading="lazy" srcset="img/blog1.webp" type="image/webp">
+                        <img loading="lazy" class="redondear-bordes" src="img/blog1.jpg" alt="imagen blog">
+                    </picture>
+                </div>
+
+                <div class="entrada__contenido">
+                    <h4 class="no-margin">Tipos de grano de café</h4>
+                    <p>El tipo de grano de café es fundamental para definir su sabor. 
+                        Entre los más populares están el arábica, que ofrece un sabor 
+                        suave y afrutado, y el robusta, con un perfil más fuerte y un 
+                        mayor contenido de cafeína. También existen variedades menos 
+                        comunes como el liberica, con un toque ahumado, y el excelsa, 
+                        que se caracteriza por notas florales y afrutadas. Cada grano 
+                        aporta una experiencia única, y elegir el adecuado puede 
+                        transformar una simple taza de café en un verdadero deleite.</p>
+                    <a class="boton boton--primario redondear-bordes" href="entrada-uno.html">Leer Más</a>
+                </div>
+            </article> <!--.entrada-->
+
+            <article class="entrada">
+                <div class="entrada__imagen">
+                    <picture>
+                        <source loading="lazy" srcset="img/blog2.webp" type="image/webp">
+                        <img loading="lazy" class="redondear-bordes" src="img/blog2.jpg" alt="imagen blog">
+                    </picture>
+                </div>
+
+                <div class="entrada__contenido">
+                    <h4 class="no-margin">3 Deliciosas recetas de café</h4>
+                    <p>Si estás buscando nuevas maneras de disfrutar el café, aquí 
+                        tienes tres recetas deliciosas. El café latte, suave y cremoso,
+                         es perfecto para los que prefieren un sabor delicado. El café mocha,
+                          una mezcla de espresso, chocolate y leche, es ideal para los que 
+                          buscan algo dulce y reconfortante. Y si hace calor, el café helado
+                          es una opción refrescante y energética para disfrutar en cualquier 
+                          momento del día. ¡Anímate a probarlas y descubre cuál se convierte 
+                          en tu favorita!</p>
+                    <a class="boton boton--primario redondear-bordes" href="entrada-dos.html">Leer Más</a>
+                </div>
+            </article> <!--.entrada-->
+
+            <article class="entrada">
+                <div class="entrada__imagen">
+                    <picture>
+                        <source loading="lazy" srcset="img/blog3.webp" type="image/webp">
+                        <img loading="lazy" class="redondear-bordes" src="img/blog3.jpg" alt="imagen blog">
+                    </picture>
+                </div>
+
+                <div class="entrada__contenido">
+                    <h4 class="no-margin">Beneficios del café</h4>
+                    <p>El café no solo es delicioso, sino que también tiene varios 
+                        beneficios para la salud. La cafeína presente en el café 
+                        aumenta los niveles de energía y concentración, ayudando a 
+                        mantenernos más alertas durante el día. Además, se ha demostrado
+                        que el café mejora el rendimiento físico y está lleno de 
+                        antioxidantes, lo que contribuye a proteger las células del 
+                        cuerpo. También puede tener un impacto positivo en el estado 
+                        de ánimo, reduciendo el riesgo de depresión. ¡Disfruta de una 
+                        taza de café y aprovecha todo lo que ofrece!</p>
+                    <a class="boton boton--primario redondear-bordes" href="entrada-tres.html">Leer Más</a>
+                </div>
+            </article> <!--.entrada-->
+        </main>
+
+        <aside class="sidebar">
+            <h3 class="titulo-cursos">Cursos y talleres</h3>
+
+            <ul class="cursos no-padding">
+                <li class="widget-curso">
+                    <h4 class="no-margin">Técnicas de extracción de café</h4>
+                    <p class="widget-curso__label">Precio:
+                        <span class="widget-curso__info">Gratis</span>
+                    </p>
+                    <p class="widget-curso__label">Cupo:
+                        <span class="widget-curso__info">20</span>
+                    </p>
+                    <a class="boton boton--secundario redondear-bordes" href="cursos.html">Más información</a>
+                </li>
+                
+                <li class="widget-curso">
+                    <h4 class="no-margin">4 Recetas de café para principiantes</h4>
+                    <p class="widget-curso__label">Precio:
+                        <span class="widget-curso__info">Gratis</span>
+                    </p>
+                    <p class="widget-curso__label">Cupo:
+                        <span class="widget-curso__info">20</span>
+                    </p>
+                    <a class="boton boton--secundario redondear-bordes" href="cursos.html">Más información</a>
+                </li>
+                
+                <li class="widget-curso">
+                    <h4 class="no-margin">Técnicas de Preparación de Café Espresso</h4>
+                    <p class="widget-curso__label">Precio:
+                        <span class="widget-curso__info">$15 USD</span>
+                    </p>
+                    <p class="widget-curso__label">Cupo:
+                        <span class="widget-curso__info">15</span>
+                    </p>
+                    <a class="boton boton--secundario redondear-bordes" href="cursos.html">Más información</a>
+                </li>
+                
+                <li class="widget-curso">
+                    <h4 class="no-margin">Cómo Crear Latte Art en Casa</h4>
+                    <p class="widget-curso__label">Precio:
+                        <span class="widget-curso__info">Gratis</span>
+                    </p>
+                    <p class="widget-curso__label">Cupo:
+                        <span class="widget-curso__info">25</span>
+                    </p>
+                    <a class="boton boton--secundario redondear-bordes" href="cursos.html">Más información</a>
+                </li>
+                
+                <li class="widget-curso">
+                    <h4 class="no-margin">El Café de Especialidad: Guía para Principiantes</h4>
+                    <p class="widget-curso__label">Precio:
+                        <span class="widget-curso__info">$10 USD</span>
+                    </p>
+                    <p class="widget-curso__label">Cupo:
+                        <span class="widget-curso__info">30</span>
+                    </p>
+                    <a class="boton boton--secundario redondear-bordes" href="cursos.html">Más información</a>
+                </li>
+                
+                <li class="widget-curso">
+                    <h4 class="no-margin">Café Cold Brew: Preparación y Técnicas</h4>
+                    <p class="widget-curso__label">Precio:
+                        <span class="widget-curso__info">Gratis</span>
+                    </p>
+                    <p class="widget-curso__label">Cupo:
+                        <span class="widget-curso__info">18</span>
+                    </p>
+                    <a class="boton boton--secundario redondear-bordes" href="cursos.html">Más información</a>
+                </li>
+                
+                <li class="widget-curso">
+                    <h4 class="no-margin">Café Orgánico: Beneficios y Preparación</h4>
+                    <p class="widget-curso__label">Precio:
+                        <span class="widget-curso__info">$12 USD</span>
+                    </p>
+                    <p class="widget-curso__label">Cupo:
+                        <span class="widget-curso__info">20</span>
+                    </p>
+                    <a class="boton boton--secundario redondear-bordes" href="cursos.html">Más información</a>
+                </li>
+                
+                <li class="widget-curso">
+                    <h4 class="no-margin">La Ciencia Detrás del Café Perfecto</h4>
+                    <p class="widget-curso__label">Precio:
+                        <span class="widget-curso__info">$18 USD</span>
+                    </p>
+                    <p class="widget-curso__label">Cupo:
+                        <span class="widget-curso__info">22</span>
+                    </p>
+                    <a class="boton boton--secundario redondear-bordes" href="cursos.html">Más información</a>
+                </li>                              
+            </ul>
+        </aside>
+    </div>
+    <footer class="footer">
+        <div class="contenedor">
+            <div class="barra">
+                <a class="logo" href="index.html">
+                    <h1 class="logo__nombre no-margin centrar-texto">Blog<span class="logo__bold">DeCafé</span></h1>
+                </a>
+                <nav class="navegacion">
+                    <a href="nosotros.html" class="navegacion__enlace">Nosotros</a>
+                    <a href="cursos.html" class="navegacion__enlace">Cursos</a>
+                    <a href="contacto.html" class="navegacion__enlace">Contacto</a>
+                </nav>
+            </div>
+        </div>
+    </footer>
+
+    <script src="js/modernizr.js"></script>
+</body>
+</html>
