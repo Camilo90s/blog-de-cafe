@@ -19,6 +19,22 @@ html {
     box-sizing: inherit;
 }
 
+/** Header **/
+.webp .header {
+    background-image: url(../img/banner.webp);
+}
+
+.no-webp .header {
+    background-image: url(../img/banner.jpg);
+}
+
+.header {
+    height: 60rem;
+    background-size: cover;
+    background-repeat: no-repeat;
+    background-position: center center;
+}
+
 body {
     font-family: var(--fuenteParrafos);
     font-size: 1.6rem;
@@ -75,22 +91,6 @@ img {
 
 .redondear-bordes {
     border-radius: .5rem;
-}
-
-/** Header **/
-.webp .header {
-    background-image: url(../img/banner.webp);
-}
-
-.no-webp .header {
-    background-image: url(../img/banner.jpg);
-}
-
-.header {
-    height: 60rem;
-    background-size: cover;
-    background-repeat: no-repeat;
-    background-position: center center;
 }
 
 .header__texto {
